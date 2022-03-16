@@ -1,0 +1,164 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+button {
+    padding: 8px 24px;
+    margin-top: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-style: none;
+    border-radius: 8px;
+}
+
+/**** GENERAL PADDING - SECTIONS OUTLINE ****/
+
+.header {
+    padding: 50px 180px;
+}
+
+.content {
+    padding: 20px 220px 60PX 220PX;
+}
+
+.quote {
+    padding: 80px 240px;
+}
+
+.form-wrapper {
+    padding: 80px 180px;
+}
+
+/**** HEADER ****/
+
+.header {
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.top-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0 0 10px 0;
+}
+
+.h-mid {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    gap: 26px;
+    /*flex-wrap: wrap;*/
+    width: 100%;
+}
+
+.h-img {
+    flex-grow: 2;
+    /*width: 50%;*/
+    max-width: 50%;
+}
+
+.title-image {
+    width: 100%;
+    height: auto;
+}
+
+
+/**** CENTER ****/
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item {
+    /*max-width: 150px;*/
+    text-align: center;
+}
+
+.item-img {
+    max-width: 150px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.item > p {
+    margin: 18px auto;
+}
+
+/**** QUOTE ****/
+.quote {
+    background-color: #e5e7eb;
+}
+
+.q-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.q-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+/**** FORM ****/
+
+.form {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 36px 72px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-text {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.form > button {
+    display: block;
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+
+/**** FOOTER ****/
+footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 30px 200px;
+    text-align: center;
+}
