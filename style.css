@@ -14,27 +14,40 @@ button {
     border-radius: 8px;
 }
 
-/**** GENERAL PADDING - SECTIONS OUTLINE ****/
+/**** SECTIONS OUTLINE ****/
 
 .header {
-    padding: 50px 180px;
+    margin: 0 auto;
+    width: 70%;
+    padding: 50px 0;
 }
 
 .content {
-    padding: 20px 220px 60PX 220PX;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px 0 60px 0;
 }
 
 .quote {
-    padding: 80px 240px;
+    margin: 0 auto;
+    width: 50%;
+    padding: 80px 0;
+}
+
+.form {
+    margin: 0 auto;
+    width: 60%;
 }
 
 .form-wrapper {
-    padding: 80px 180px;
+    padding: 80px 0;
 }
+
+
 
 /**** HEADER ****/
 
-.header {
+.header-wrapper {
     background-color: #1F2937;
     color: #f9faf8;
 }
@@ -94,14 +107,13 @@ h2 {
     text-align: center;
 }
 
-.content-wrapper {
+.items-wrapper {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
 .item {
-    /*max-width: 150px;*/
     text-align: center;
 }
 
@@ -118,7 +130,7 @@ h2 {
 }
 
 /**** QUOTE ****/
-.quote {
+.quote-wrapper {
     background-color: #e5e7eb;
 }
 
